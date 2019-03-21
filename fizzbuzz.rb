@@ -8,5 +8,7 @@ def fizzbuzz(x)
     "Fizz"
   elsif (x % 5 == 0)
     "Buzz"
+  else
+    nil #not needed, but I like symetry 
   end
 end
